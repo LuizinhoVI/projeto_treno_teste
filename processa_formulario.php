@@ -1,34 +1,36 @@
-<?php
-  $servername = "localhost";
-  $username = "id21268358_treino";
-  $password = "Qqwertyuiop1234!@";
-  $dbname = "id21268358_teste";
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
 
-  // Cria a conexão
-  $conn = new mysqli($servername, $username, $password, $dbname);
+    <title>code programado </title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
 
-  // Verifica a conexão
-  if ($conn->connect_error) {
-    die("Conexão falhou: " . $conn->connect_error);
-  }
+  <body >
+
+<h1> Meus cadernos</h1>
+
+
+    <section align="center">
+    <div>
+      <div>
+        <img src="" alt="">
+        
+      </div>
+    </div>
+  </section>
+  <footer>
   
-  echo "Conexão bem sucedida!";
+    <div>
+  <a href=""></a>
+    </div>
+    <div>
+<img src="treino.png" width="50px" height="50px" alt="">
+    </div>
+    <div>
 
-
-
-  // Dados que você deseja inserir
-$nome = $_POST["nome"];
-$idade = $_POST["idade"];
-// ...
-
-// Consulta de inserção
-$sql = "INSERT INTO clente (nome, idade) VALUES ('$nome', '$idade')";
-if ($conn->query($sql) === TRUE) {
-    echo "Dados inseridos com sucesso!";
-} else {
-    echo "Erro ao inserir os dados: " . $conn->error;
-}
-
-// Fecha a conexão
-$conn->close();
-?>
+    </div>
+  </footer>
+  </body>
+</html>
