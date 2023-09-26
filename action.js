@@ -7,3 +7,6 @@ function cronometro(){
 function add_caderno(){
     window.location ="meuscadernos.html";
 }
+function meusexercicios(){
+    window.location ="Meus_exercicios.html";
+}
