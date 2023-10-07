@@ -1,8 +1,6 @@
-html {
-    display: none;
-}
 
-@media (min-width: 500px) {
+
+@media (min-width: 800px) {
 
     body,
     html {
@@ -447,7 +445,7 @@ html {
         -moz-transform: translateX(-70%);
         -ms-transform: translateX(-70%);
         -o-transform: translateX(-70%);
-}
+    }
 
     .videos-completos>iframe {
         border-radius: 25px;
@@ -465,5 +463,5 @@ html {
         -moz-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         -o-transform: translateY(-50%);
-}
+    }
 }

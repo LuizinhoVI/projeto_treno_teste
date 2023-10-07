@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <title>code programado projeto</title>
-    <link rel="stylesheet" href="estilo.css" />
-    <script src="action.js"></script>
+    <!-- <link rel="stylesheet" href="/css/novo.css" /> -->
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script src="js/action.js"></script>
   </head>
 
   <body>
@@ -32,13 +33,13 @@
 
   <footer>
     <div align="center">
-      <img src="treino.png" onclick="meusexercicios()" width="90vw" height="90vh" alt="" />
+      <img src="img/treino.png" onclick="meusexercicios()" width="90vw" height="90vh" alt="" />
     </div>
     <div align="center">
-      <img src="calendario.png" width="90vw" height="90vh" alt="" />
+      <img src="img/calendario.png" width="90vw" height="90vh" alt="" />
     </div>
     <div align="center" onclick="cronometro()">
-      <img src="cronometro.png" width="90vw" height="90vh" alt="" />
+      <img src="img/cronometro.png" width="90vw" height="90vh" alt="" />
     </div>
 
 
