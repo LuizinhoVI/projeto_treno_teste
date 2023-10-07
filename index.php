@@ -1,56 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt">
-  <head>
-    <meta charset="utf-8" />
-    <title>code programado projeto</title>
-    <!-- <link rel="stylesheet" href="/css/novo.css" /> -->
-    <link rel="stylesheet" href="css/estilo.css" />
-    <script src="js/action.js"></script>
-  </head>
+<html lang="en">
 
-  <body>
-    <div align="left" class="topo">
-      <div class="lapis">
-      </div>
-      <div class="login">
-      </div>
-    </div>
-    <h1 align="left">Meus cadernos</h1>
-    
-    <!-- parte dos treinos guardados  -->
-    <section align="center" class="treinossalvos">
-      
-       <div class="foto-treino">
-       </div>
-       <div align="left" class="treino1">         
-             <p align="left" class="treino-letra">Treinamento de Abdomen</p>
-             <p align="left" class="treino-descrition">Objetivo : Ganho de massa muscular</p>
-      </div>
-      
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/loguin.css">
+  <title>Code Fitnes</title>
 
-    </section>
-  </body>
+</head>
 
-  <footer>
-    <div align="center">
-      <img src="img/treino.png" onclick="meusexercicios()" width="90vw" height="90vh" alt="" />
-    </div>
-    <div align="center">
-      <img src="img/calendario.png" width="90vw" height="90vh" alt="" />
-    </div>
-    <div align="center" onclick="cronometro()">
-      <img src="img/cronometro.png" width="90vw" height="90vh" alt="" />
-    </div>
+<body style="display: grid; place-content: center;position: relative;  top: 20vh;">
+  <form class="form" action="" method="post">
 
 
 
+    <h1 class="heading">Loguin</h1>
+    <div class="switch-holder">
+      <h2 align="center">Eu sou </h2>
 
-
-    <div align="right">
-      <div class="bola" onclick="add_caderno()">
-        <hr class="mais" />
-        <hr class="mais1" />
+      <div class="escolha-loguin">
+        <div class="vermelho" align="center">
+          Personal
+        </div>
+        <div class="azul" align="center">
+          Aluno 
+        </div>
       </div>
     </div>
-  </footer>
+    <br>
+    <input type="text" class="input" placeholder="Username" type="text">
+    <input type="password" class="input" placeholder="Password" type="text">
+    <button class="btn">Entrar</button>
+    <button class="btn">Cadastrar</button>
+
+    <a class="heading" href=""> esqueci a senha</a>
+  </form>
+
+</body>
+
 </html>
